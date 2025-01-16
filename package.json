@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "run-p server1 server2",
-    "server1": "tsx ./src/main1.ts",
-    "server2": "tsx ./src/main2.ts"
+    "server1": "tsx ./src/server1.ts",
+    "server2": "tsx ./src/server2.ts"
   },
   "dependencies": {
     "emp-wasm-backend": "^0.2.1",

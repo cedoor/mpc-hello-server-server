@@ -17,7 +17,8 @@ It's a computation between two servers to find the larger of two numbers.
 
 ```sh
 npm install
-npm start
+npm run server1
+npm run server2
 ```
 
 The two input numbers are encoded in a constant for the sake of the example, and the computation's output will be displayed immediately.
