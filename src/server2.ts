@@ -1,5 +1,5 @@
 import { WebSocket } from 'ws';
-import assert from './utils/assert';
+import assert from 'assert';
 import generateProtocol from './utils/generateProtocol';
 
 // Alice's circuit input.

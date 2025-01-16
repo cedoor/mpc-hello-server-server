@@ -1,6 +1,6 @@
 import { Session } from 'mpc-framework';
 import { WebSocketServer } from 'ws';
-import assert from './utils/assert';
+import assert from 'assert';
 import generateProtocol from './utils/generateProtocol';
 
 // Bob's circuit input.
